@@ -1,0 +1,8 @@
+<?php
+	$conn = mysql_connect('localhost','root','','hengker') or die ('Gagal cuy')
+
+	if (mysqli_connect_error()){
+
+		echo "Mampus gagal : " . mysqli_connect_error();
+	} 
+?>
